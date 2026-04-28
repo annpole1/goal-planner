@@ -1,0 +1,6 @@
+tasks:
+  - init: ./mvnw clean install
+    command: ./mvnw spring-boot:run
+ports:
+  - port: 8080
+    onOpen: open-preview
